@@ -14,6 +14,12 @@
 
 Создала и настроила проект в jeenkins:
 
+![настройка проекта](https://github.com/AltynLatypovaPI431/hello-jenkins/blob/main/skrin/nast.png?raw=true)
+
 Настроила вебхуки в репозитории, собрала проект, результаты сборки:
 
+![сборка](https://github.com/AltynLatypovaPI431/hello-jenkins/blob/main/skrin/prov.png?raw=true)
+
 Сделала изменения в файле index.html, закоммитила и jeenkins автоматически запустил новую сборку и вот её результат:
+
+![приветствие](https://github.com/AltynLatypovaPI431/hello-jenkins/blob/main/skrin/privet.png?raw=true)
