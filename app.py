@@ -5,9 +5,9 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    student_name = os.getenv('STUDENT_NAME', 'Девопсов Олег')
+    student_name = os.getenv('STUDENT_NAME', 'Латыпова Алтын')
     return render_template('index.html', student_name=student_name)
 
 if __name__ == '__main__':
-    port = int(os.getenv('PORT', 8081))
+    port = int(os.getenv('PORT', 8085))
     app.run(host='0.0.0.0', port=port)
